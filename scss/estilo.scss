@@ -1,0 +1,218 @@
+@import "variables";
+@import "reset";
+@import "fonts";
+@import "utils";
+@import "mixins";
+
+
+
+
+header nav{
+    background-color: rgb(9, 8, 37) !important;
+    span.palo{
+        margin-right: 30px;
+        font-size: 1rem;
+    }
+    .active{
+            color:$salmon;
+        }
+    a{
+        color: $blanco !important;
+        font-weight: 300;
+        text-align: end;   
+    }
+    a:last-child{
+        color: $salmon !important;
+        font-weight: 300;
+    }
+    button {
+        border: 0;
+        button::after{
+            border: 0;
+        }
+        span{
+            background-color: rgba($blanco, 0.2);
+            padding: 7px;
+            border-radius: 5px;
+            color: $blanco;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            i{
+                font-size: 1.2rem;
+                margin-left: 5px;
+                
+            }
+        }
+    }
+}
+
+section#banner{
+    background-color: $azulOscuro;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-weight: 600;
+        color: $blanco;
+        font-size: 3.5rem;
+        span{
+            color: $salmon;
+        }
+    }
+    p{
+        color: $blanco;
+        
+    }
+    button{
+        background-color: $salmon;
+        color: $blanco;
+        border-radius: 200px;
+        text-transform: uppercase;
+        width: 35%;
+        font-size: 0.9rem;
+    }
+    button:last-child{
+        background-color: $grisOscuro;
+        color: $blanco;
+        border-radius: 200px;
+        text-transform: uppercase;
+        width: 35%;
+        font-size: 0.9rem;
+    }
+}
+
+section#info{
+    h2{
+        color: $azulOscuro;
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+    button{
+        background-color: $salmon;
+        color: $blanco;
+        border-radius: 500px;
+        text-transform: uppercase;
+        width: 40%;
+        font-size: 1rem;
+    }
+}
+
+section#servicios{
+    background: url(../img/fondoServicios.jpeg) center center no-repeat;
+    background-size: cover;
+    color: $blanco;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0, 30px;
+   
+
+   
+    div.icons {
+        background-color: $salmon;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        img{
+            transform: translate(30px, 10px);
+        }
+    }
+    h2{
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    p{
+        color: $grisOscuro;
+    }
+}
+
+section#artistas{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    h2{
+        color: $azulOscuro;
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    div.image img{
+        border-radius: 30px;
+    }
+
+}
+
+section#sellos{
+    background-color: $azulOscuro;
+    color: $blanco;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    p{
+        color: $grisOscuro;
+    }
+    h2{
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    h3{
+        color: $salmon;
+    }
+    button{
+        background-color: $salmon;
+        color: $blanco;
+        border-radius: 500px;
+        text-transform: uppercase;
+        width: 50%;
+        font-size: 1rem;
+    }
+    div.bgw{
+        background-color: rgba($blanco, 0.2);
+        padding: 50px 100px;
+        border-radius: 30px;
+    }
+    li{
+        margin-bottom: 30px;
+        img{
+            margin-right: 30px;
+        }
+    }
+    li:last-child{
+        margin: 0;
+    }
+}
+
+section#equipo{
+    h2{
+        color: $azulOscuro;
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    div.image img{
+        border-radius: 100%;
+    }
+}
+
+footer#footer{
+    display: flex;
+    a{
+        color: $azulMedio;
+    }
+    background-color: $azulOscuro;
+    small{
+        color: $grisOscuro;
+    }
+    h5{
+        color: $blanco;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    i{
+        color: $grisOscuro;
+        margin-right: 20px;
+        margin-top: 30px !important;
+    }
+    i:first-child{
+        margin: 0;
+    }
+}
+
